@@ -9,7 +9,7 @@ const notaMinima = parseFloat(prompt("Digite a nota mínima"));
 
 let linhas = '';
 
-form.addEventListener('submit',function(e) {
+form.addEventListener('submit', function(e) {
     e.preventDefault();
     adicionaLinha();
     atualizaTabela();
